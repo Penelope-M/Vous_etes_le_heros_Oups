@@ -178,7 +178,7 @@ const chaptersObj = {
         subtitle: "Chemin séparer",
         text: "Il vaut mieux ne pas rester en contact. Que ça soit votre choix ou pas, certaines personnes sont là pour être de passage à notre vie. Elle vous raccompagne jusqu'à la porte et une fois que vous sortez, elle referme aussitôt la porte. Peut-être si vous aviez fait d'autre choix, votre destin aurait changer.",
         img: "One-Night-Stand.gif"
-},
+}
 }
 function goToChapter(chapterName){
     const chapter=chaptersObj[chapterName];

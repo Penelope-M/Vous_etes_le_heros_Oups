@@ -2,7 +2,18 @@ const chaptersObj = {
     chapitre1: {
         subtitle: "Lendemain de veille",
         text: "Vous vous réveillez, vous semblez perdu, car vous n'êtes clairement pas chez vous. Vous cherchez votre cellulaire.Vous vous souvenez de rien.",
-        img: "One-Night-Stand.gif"
+        img: "One-Night-Stand.gif",
+        option:[
+
+        {
+        text:'Texto ami',
+        action:"goToChapter('chapitre2')" 
+        },
+        {
+            text:'Ignorer',
+            action:"goToChapter('chapitre6')" 
+            },
+        ]
     },
     chapitre2: {
         subtitle: "Texto ami",
@@ -182,6 +193,6 @@ const chaptersObj = {
 }
 function goToChapter(chapterName){
     const chapter=chaptersObj[chapterName];
-    console.log(chaptersObj.chapitre1.subtitle);
-    console.log(chaptersObj.chapitre1.text);
+    console.log(chapter.subtitle);
+    console.log(chapter.text);
 }

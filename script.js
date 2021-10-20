@@ -440,6 +440,6 @@ const chaptersObj = {
 }
 function goToChapter(chapterName){
     const chapter=chaptersObj[chapterName];
-    console.log(chapter.subtitle);
-    console.log(chapter.text);
-}
+    document.querySelector('.chapitre').innerText=chapter.subtitle;
+    document.querySelector('.message').innerText=chapter.text;
+};

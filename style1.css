@@ -53,6 +53,7 @@ Body {
   justify-content: space-evenly;
   width: 100%;
   padding: 10px;
+  
 }
 
 .choix{
@@ -60,4 +61,5 @@ Body {
   background-color: #826251;
   padding: 10px;
   color: #FFE8D1;
+  text-align:center;
 }

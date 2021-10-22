@@ -12,7 +12,7 @@ const chaptersObj = {
     },
     chapitre2: {
         subtitle: "Texto ami",
-        text: "Encore endormi, vous entendez un son famillier. Votre main est guider vers votre cellulaire. Vous le prenez. Votre ami vous a textez pour savoir où vous êtes.",
+        text: "Encore endormi, vous entendez un son famillier. Votre main est guidée vers votre cellulaire. Vous le prenez. Votre ami vous a texté pour savoir où vous êtes.",
         img: "assets/img/texto_2.jpg",
         options:[
             {
@@ -27,7 +27,7 @@ const chaptersObj = {
         },
     chapitre3: {
         subtitle: "Dire la vérité à son ami",
-        text: "Votre ami vous ne croit pas, car vous êtes nulle avec les femmes. Il demande un preuve.",
+        text: "Votre ami vous ne croit pas, car vous êtes nul avec les femmes. Il demande une preuve.",
         img: "assets/img/texto.jpg",
         options:[
             {
@@ -98,7 +98,7 @@ const chaptersObj = {
     },
     chapitre8: {
         subtitle: "Mettre ses vêtements",
-        text: "Vous êtes habillé. Malgré que vous aimez votre corps de Dieu, il faut se garder une gène chez une Lady.",
+        text: "Vous êtes habillé. Malgré que vous aimez votre corps de Dieu, il faut se garder une gêne chez une Lady.",
         img: "assets/img/chambre_jour_1.jpg",
         options:[
             {
@@ -109,7 +109,7 @@ const chaptersObj = {
 },
     chapitre9: {
         subtitle: "Fuir",
-        text: "Vous decidez de ne pas contact avec elle. Vous prenez vos jambes à votre cou et vous dégagez. Elle vous bloquera surement mais ça vous importe peu. Peut-être vous auriez fait un choix différement si ça serait passé autrement",
+        text: "Vous decidez de ne pas prendre contact avec elle. Vous prenez vos jambes à votre cou et vous dégagez. Elle vous bloquera surement, mais ça vous importe peu. Peut-être vous auriez fait un choix différent si ça serait passé autrement",
         img: "assets/img/dehors.jpg",
         options:[
             {
@@ -120,7 +120,7 @@ const chaptersObj = {
 },
     chapitre10: {
         subtitle: "Fouiller dans ses effets personelle",
-        text: "Vous voulez découvrir qui elle est. Pas le temps au enfantillage. Vous prenez son sac à main et vous trouvez son portefeuille. Parfait! Avec une carte identité vous pourriez découvrir son nom. Vous décidez de prendre quel cartes.",
+        text: "Vous voulez découvrir qui elle est. Pas le temps au enfantillage! Vous prenez son sac à main et vous trouvez son portefeuille. Parfait! Avec une carte identité vous pourriez découvrir son nom. Vous décidez de prendre quel cartes.",
         img: "assets/img/chambre_jour_1.jpg",
         options:[
             {
@@ -157,7 +157,7 @@ const chaptersObj = {
 },
     chapitre13: {
         subtitle: "Regarder sa bibliothèque",
-        text: "Vous découvrez le type de littérature qu'elle apprécie. C'est surtout du théàtre et ces goûts sont divers et variés. Elle semble appréciée la romance, mais elle semble avoir un coup de coeur sur le thème des tragédies dramatiques.",
+        text: "Vous découvrez le type de littérature qu'elle apprécie. C'est surtout du théàtre et ces goûts sont divers et variés. Elle semble appréciée la romance, mais elle semble avoir un coup de coeur sur le thème des tragédies grecques.",
         img: "assets/img/chambre_jour_1.jpg",
         options:[
             {
@@ -168,11 +168,11 @@ const chaptersObj = {
 },
     chapitre14: {
         subtitle: "Retour dans la chambre",
-        text: "Elle revient dans la chambre. Elle vous dit qu'elle soit soulagée que vous n'êtes pas partie comme un lapin. Elle vous explique que vous vous êtes donnez rendez-vous sur dans un Bar à partir de l'application Tinder. Vous aviez tous les deux préférez d'apprendre à faire connaissance en personne au lieu derrière un écran. Vous aviez pris beaucoup d'alcool et vous êtes rentrer chez elle. Vous vous doutiez ce qui s'est passé par la suite. Elle vous rassure que vous vous êtes protégé. Ne sachant pas rajouter d'avantage, elle vous regarde pour que vous rompiez ce silence. Qu'allez vous dire? ",
+        text: "Elle revient dans la chambre. Elle vous dit qu'elle est soulagée que vous n'êtes pas partie comme un lapin. Elle vous explique que vous vous êtes donnés un rendez-vous sur dans un Bar à partir de l'application Tinder. Vous aviez tous les deux préférer d'apprendre à faire connaissance en personne au lieu derrière un écran. Vous aviez pris beaucoup d'alcool et vous êtes rentrer chez elle. Vous vous doutiez ce qui s'est passé par la suite. Elle vous rassure que vous vous êtes protégés. Ne sachant pas rajouter d'avantage, elle vous regarde pour que vous rompiez ce silence. Qu'allez vous dire? ",
         img: "assets/img/fatigue.jpg",
         options:[
             {
-            text: "Parler d'elle",
+            text: "Parler de elle",
             action: "goToChapter('chapitre15')"
             },
             {
@@ -235,7 +235,7 @@ const chaptersObj = {
 },
     chapitre19: {
         subtitle: "Elle vous mets dehors",
-        text: "Habillé ou pas, elle vous donne un bon coup de pieds dans les jambes. Vous êtes un connard à ses yeux et vous souhaite la pire des journées. Vous êtes humillier, car tout son voisinage vous remarque. Peut-être les choses se seraient mieux passer si vous auriez agit autrement?",
+        text: "Habillé ou pas, elle vous donne un bon coup de pieds dans les jambes. Vous êtes un connard à ses yeux et vous souhaite la pire des journées. Vous êtes humillié, car tout son voisinage vous remarque. Peut-être les choses se seraient mieux passer si vous auriez agit autrement?",
         img: "assets/img/dehors.jpg",
         options:[
             {
@@ -246,7 +246,7 @@ const chaptersObj = {
 },
     chapitre20: {
         subtitle: "Parler du contenue de sa bibliothèque",
-        text: "Vous discutez de livre afin de créer un lien avec elle. La discussion va du bon sens. Elle demande qu'elle est votre pièce de théâtre préféré.",
+        text: "Vous discutez de livres afin de créer un lien avec elle. La discussion va du bon sens. Elle demande qu'elle est votre pièce de théâtre préféré.",
         img: "assets/img/pensive.jpg",
         options:[
             {
@@ -254,7 +254,7 @@ const chaptersObj = {
             action: "goToChapter('chapitre21')"
             },
             {
-            text: "Les misérables",
+            text: "Antigone",
             action: "goToChapter('chapitre22')"
             },
             {
@@ -276,7 +276,7 @@ const chaptersObj = {
             ]
 },
     chapitre22: {
-        subtitle: "Les misérables",
+        subtitle: "Antigone",
         text: "Vous êtes certain que c'est une femme avec de la profondeur, sinon le fait d'avoir regarder dans sa bibliothèque en ait pour quelques choses. Elle semble satisfait de votre réponse. Elle vous en parle avec passion. Vous commenciez à avoir mal à la tête, et elle le remarque. Elle part vous cherchez des médiacaments.",
         img: "assets/img/happy_4.png",
         options:[
@@ -430,7 +430,7 @@ const chaptersObj = {
 },
     chapitre34: {
         subtitle: "Rester en contact",
-        text: "Vous aviez fait les bons choix. Vous voulez vous revoir mutuellement. Peut-être vous seriez plus qu'ami à l'avenir. N'oublier pas de moins boire à l'avenir. Votre nouvelle ami vous le fait clairement rapeller en rigolant. Elle vous raccompagne jusqu'à la porte. Fin heureuse.",
+        text: "Vous aviez fait les bons choix. Vous voulez vous revoir. Peut-être vous seriez plus qu'ami à l'avenir. N'oublier pas de moins boire à l'avenir. Votre nouvelle ami vous le fait clairement rapeller en rigolant. Elle vous raccompagne jusqu'à la porte. Fin heureuse.",
         img: "assets/img/timide_gene.jpg",
         options:[
             {
@@ -452,7 +452,7 @@ const chaptersObj = {
 },
     chapitre36: {
         subtitle: "Chemin séparer",
-        text: "Il vaut mieux ne pas rester en contact. Que ça soit votre choix ou pas, certaines personnes sont là pour être de passage à notre vie. Elle vous raccompagne jusqu'à la porte et une fois que vous sortez, elle referme aussitôt la porte. Peut-être si vous aviez fait d'autre choix, votre destin aurait changer.",
+        text: "Il vaut mieux ne pas rester en contact. Que ça soit votre choix ou pas, certaines personnes sont là pour être de passage à notre vie. Elle vous raccompagne jusqu'à la porte et une fois que vous sortez, elle referme aussitôt la porte. Peut-être si vous aviez fait d'autres choix, votre destin aurait changé.",
         img: "assets/img/dehors_2.jpg",
         options:[
             {
@@ -469,7 +469,7 @@ function goToChapter(chapterName){
     document.querySelector('.chapitre').innerText=chapter.subtitle;
     document.querySelector('.message').innerText=chapter.text;
     document.getElementById("image").innerHTML=`<img src="${chapter.img}"/>`;
-   document.querySelector(".bouton")
+    document.querySelector(".bouton")
 
     const optionsArr = chaptersObj[chapterName].options.length;
     let textChoix=" ";

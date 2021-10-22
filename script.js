@@ -480,7 +480,7 @@ for (let index = 0;
     index++
     ) {
         const choix = chaptersObj[chapterName].options[index].action;
-        document.querySelector(".bouton").innerHTML=textChoix += `<div class="bouton"><input type="button" value='${chaptersObj[chapterName].options[index].text} 'onclick="${chaptersObj[chapterName].options[index].action}"/></div>`;
+        document.querySelector(".bouton").innerHTML=textChoix += `<div class="bouton"><input class="choix" type="button" value='${chaptersObj[chapterName].options[index].text} 'onclick="${chaptersObj[chapterName].options[index].action}"/></div>`;
       };
 
      

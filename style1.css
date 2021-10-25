@@ -1,66 +1,64 @@
 @font-face {
-  font-family: 'Julius Sans One';
-  src: url(assets/fonts/JuliusSansOne-Regular.ttf) format('truetype');
+  font-family: "Julius Sans One";
+  src: url(assets/fonts/JuliusSansOne-Regular.ttf) format("truetype");
 }
 @font-face {
-  font-family: 'Coming Soon';
-  src: url(assets/fonts/ComingSoon-Regular.ttf) format('truetype');
+  font-family: "Coming Soon";
+  src: url(assets/fonts/ComingSoon-Regular.ttf) format("truetype");
 }
 
 Body {
-    height: 100%;
-    background-color: #568ea3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  height: 100%;
+  background-color: #568ea3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .game{
-    background-color: #68c3d4; 
-    width: 900px;
-   min-height: 100px;
-   display:flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-  }
+.game {
+  background-color: #68c3d4;
+  width: 900px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  h1{
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 45px;
-    color: #FFFFFF;
-    font-style: italic;
-  }
+h1 {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 45px;
+  color: #ffffff;
+  font-style: italic;
+}
 
-  img{
-    width: 100%;
-    padding: 15px;
-    box-sizing: border-box;
-  }
+img {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
 
-  p{
-    font-family: 'Coming Soon', cursive;
-    padding: 15px;
-    font-size:20px ;
-  }
+p {
+  font-family: "Coming Soon", cursive;
+  padding: 15px;
+  font-size: 20px;
+}
 
-  .chapitre{
-    font-size: 25px;
-  }
+.chapitre {
+  font-size: 25px;
+}
 
-.bouton{
+.bouton {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
   padding: 10px;
-  
-  
 }
 
-.choix{
+.choix {
   border-radius: 15px;
   background-color: #826251;
   padding: 10px;
-  color: #FFE8D1;
-  text-align:center;
+  color: #ffe8d1;
+  text-align: center;
 }

@@ -1,14 +1,15 @@
-let keyFounded= false;
+let keyFounded = false;
 function statKey() {
-    keyFounded=true;
+    keyFounded = true;
     goToChapter("chapitre4")
 }
 
 function gererStatKey(){
-    if(keyFounded = true){
-        goToChapter("chapitre24")
-    }else{
+    if(keyFounded == false){
         goToChapter("chapitre25")
+    }
+    if(keyFounded == true){
+        goToChapter("chapitre24")
     }
 }
 const chaptersObj = {
@@ -132,7 +133,7 @@ const chaptersObj = {
             ]
 },
     chapitre10: {
-        subtitle: "Fouiller dans ses effets personelle",
+        subtitle: "Fouiller dans ses effets personels",
         text: "Vous voulez découvrir qui elle est. Pas le temps au enfantillage! Vous prenez son sac à main et vous trouvez son portefeuille. Parfait! Avec une carte identité vous pourriez découvrir son nom. Vous décidez de prendre quel cartes.",
         img: "assets/img/chambre_jour_1.jpg",
         options:[

@@ -1,3 +1,16 @@
+let keyFounded= false;
+function statKey() {
+    keyFounded=true;
+    goToChapter("chapitre4")
+}
+
+function gererStatKey(){
+    if(keyFounded = true){
+        goToChapter("chapitre24")
+    }else{
+        goToChapter("chapitre25")
+    }
+}
 const chaptersObj = {
     chapitre1: {
         subtitle: "Lendemain de veille",
@@ -32,7 +45,7 @@ const chaptersObj = {
         options:[
             {
             text: "Prendre une photo",
-            action: "goToChapter('chapitre4')"
+            action: "statKey()"
             },
             {
             text: "Ne pas répondre",
@@ -271,7 +284,7 @@ const chaptersObj = {
         options:[
             {
             text: "Suite",
-            action: "goToChapter('chapitre25')"
+            action: "gererStatKey()"
             }
             ]
 },
@@ -282,7 +295,7 @@ const chaptersObj = {
         options:[
             {
             text: "Suite",
-            action: "goToChapter('chapitre25')"
+            action: "gererStatKey()"
             }
             ]
 },
@@ -293,7 +306,7 @@ const chaptersObj = {
         options:[
             {
             text: "Suite",
-            action: "goToChapter('chapitre25')"
+            action: "gererStatKey()"
             }
             ]
 },

@@ -4,6 +4,13 @@ function statKey() {
     goToChapter("chapitre4")
 }
 
+function reset(){
+keyFounded = false;
+goToChapter('chapitre1')
+
+}
+
+
 function gererStatKey(){
     if(keyFounded == false){
         goToChapter("chapitre25")
@@ -128,7 +135,7 @@ const chaptersObj = {
         options:[
             {
             text: "Recommencer",
-            action: "goToChapter('chapitre1')"
+            action: "reset()"
             },
             ]
 },
@@ -254,7 +261,7 @@ const chaptersObj = {
         options:[
             {
             text: "Recommencer",
-            action: "goToChapter('chapitre1')"
+            action: "reset()"
             },
             ]
 },
@@ -449,7 +456,7 @@ const chaptersObj = {
         options:[
             {
             text: "Recommencer",
-            action: "goToChapter('chapitre1')"
+            action:"reset()"
             }
             ]
 },
@@ -471,7 +478,7 @@ const chaptersObj = {
         options:[
             {
             text: "Recommencer",
-            action: "goToChapter('chapitre1')"
+            action: "reset()"
             }
             ]
 

@@ -21,11 +21,13 @@ function gererStatKey(){
     if(keyFounded == true){
         goToChapter("chapitre24")
     }
+}
+function gererChoix(){
     if(goodChoice == false){
-        goToChapter("chapitre35")
+        goToChapter("chapitre34")
     }
     if(goodChoice == true){
-        goToChapter("chapitre34")
+        goToChapter("chapitre35")
     }
 }
 const chaptersObj = {
@@ -441,7 +443,7 @@ const chaptersObj = {
         options:[
             {
             text: "Suite",
-            action: "gererStatKey()"
+            action: "gererChoix()"
             }
             ]
 },

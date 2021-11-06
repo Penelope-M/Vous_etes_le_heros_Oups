@@ -1,15 +1,18 @@
+let goodChoice = false;
+function statgood() {
+    goodChoice=true;
+    goToChapter('chapitre22')
+}
 let keyFounded = false;
 function statKey() {
     keyFounded = true;
     goToChapter("chapitre4")
 }
-
 function reset(){
 keyFounded = false;
+goodChoice = false;
 goToChapter('chapitre1')
-
 }
-
 
 function gererStatKey(){
     if(keyFounded == false){
@@ -17,6 +20,12 @@ function gererStatKey(){
     }
     if(keyFounded == true){
         goToChapter("chapitre24")
+    }
+    if(goodChoice == false){
+        goToChapter("chapitre35")
+    }
+    if(goodChoice == true){
+        goToChapter("chapitre34")
     }
 }
 const chaptersObj = {
@@ -431,12 +440,8 @@ const chaptersObj = {
         img: "assets/img/pensive.jpg",
         options:[
             {
-            text: "oui",
-            action: "goToChapter('chapitre34')"
-            },
-            {
-            text: "non",
-            action: "goToChapter('chapitre35')"
+            text: "Suite",
+            action: "gererStatKey()"
             }
             ]
 },
@@ -453,7 +458,7 @@ const chaptersObj = {
 },
     chapitre34: {
         subtitle: "Rester en contact",
-        text: "Vous aviez fait les bons choix. Vous voulez vous revoir. Peut-être vous seriez plus qu'ami à l'avenir. N'oublier pas de moins boire à l'avenir. Votre nouvelle ami vous le fait clairement rapeller en rigolant. Elle vous raccompagne jusqu'à la porte. Fin heureuse.",
+        text: "Vous aviez fait les bons choix. Vous voulez vous revoir. Peut-être vous seriez plus qu'ami à l'avenir. N'oubliez pas de moins boire à l'avenir. Votre nouvelle ami vous le fait clairement rapeller en rigolant. Elle vous raccompagne jusqu'à la porte. Fin heureuse.",
         img: "assets/img/timide_gene.jpg",
         options:[
             {

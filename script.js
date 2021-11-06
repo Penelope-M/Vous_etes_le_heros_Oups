@@ -472,7 +472,7 @@ const chaptersObj = {
     chapitre35: {
         subtitle: "Coeur brisé",
         text: "Vous aviez pas fait les bons choix pour rester en contact. Vous vous êtes fait brisé le coeur",
-        img: "assets/img/timide.jpg",
+        img: "assets/img/timide.png",
         options:[
             {
             text: "Suite",

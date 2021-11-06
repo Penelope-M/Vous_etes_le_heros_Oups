@@ -24,6 +24,7 @@ const chaptersObj = {
         subtitle: "Lendemain de veille",
         text: "Vous vous réveillez, vous semblez perdu, car vous n'êtes clairement pas chez vous. Vous cherchez votre cellulaire.Vous vous souvenez de rien.",
         img: "assets/img/lumiere.jpg",
+        video:"assets/video/lumiere.mp4",
         options:[
             {
             text: "Suite",
@@ -258,6 +259,7 @@ const chaptersObj = {
         subtitle: "Elle vous mets dehors",
         text: "Habillé ou pas, elle vous donne un bon coup de pieds dans les jambes. Vous êtes un connard à ses yeux et vous souhaite la pire des journées. Vous êtes humillié, car tout son voisinage vous remarque. Peut-être les choses se seraient mieux passer si vous auriez agit autrement?",
         img: "assets/img/dehors.jpg",
+        video:"assets/video/fuck.mp4",
         options:[
             {
             text: "Recommencer",

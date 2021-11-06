@@ -236,7 +236,7 @@ const chaptersObj = {
     chapitre16: {
         subtitle: "Elena",
         text: "Elle découvre que vous aviez fouiller dans ses affaires, car elle dit qu'elle vous a jamais donnez son vrai nom. Elle est furieuse. Tellement qu'elle vous jette dehors habilier ou non.",
-        img: "assets/img/angry_1",
+        img: "assets/img/angry_1.jpg",
         options:[
             {
             text: "Suite",
@@ -499,7 +499,11 @@ function goToChapter(chapterName){
     document.querySelector('.chapitre').innerText=chapter.subtitle;
     document.querySelector('.message').innerText=chapter.text;
     document.getElementById("image").innerHTML=`<img src="${chapter.img}"/>`;
-    document.querySelector(".bouton")
+    document.querySelector(".bouton");
+    
+    if(chapter.video=true){
+    
+    }
 
     const optionsArr = chaptersObj[chapterName].options.length;
     let textChoix=" ";

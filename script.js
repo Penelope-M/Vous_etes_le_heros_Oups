@@ -499,16 +499,17 @@ function goToChapter(chapterName){
     let changeBalise = '';
     document.querySelector('.chapitre').innerText=chapter.subtitle;
     document.querySelector('.message').innerText=chapter.text;
-    document.getElementById("image").innerHTML=changeBalise;
     document.querySelector(".bouton");
     
-
     if(chapter.video!= undefined){
         changeBalise =`<video src=${'chapter.img'} poster=${'chapter.video'}/video>`
     }else{
         changeBalise =`<img src=${'chapter.img'}/img>`
     }
-
+    
+    document.getElementById("image").innerHTML=changeBalise;
+    
+    
     const optionsArr = chaptersObj[chapterName].options.length;
     let textChoix=" ";
   

@@ -496,15 +496,17 @@ const chaptersObj = {
 
 function goToChapter(chapterName){
     const chapter=chaptersObj[chapterName];
+    let changeBalise = '';
     document.querySelector('.chapitre').innerText=chapter.subtitle;
     document.querySelector('.message').innerText=chapter.text;
-    document.getElementById("image").innerHTML=`<img src="${chapter.img}"/>`;
+    document.getElementById("image").innerHTML=changeBalise;
     document.querySelector(".bouton");
     
+
     if(chapter.video!= undefined){
-    `<video src=${'chapter.img'} poster=${'chapter.video'}/video>`
+        changeBalise =`<video src=${'chapter.img'} poster=${'chapter.video'}/video>`
     }else{
-    `<img src=${'chapter.img'}/img>`
+        changeBalise =`<img src=${'chapter.img'}/img>`
     }
 
     const optionsArr = chaptersObj[chapterName].options.length;

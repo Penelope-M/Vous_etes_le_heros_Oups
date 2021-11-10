@@ -501,8 +501,10 @@ function goToChapter(chapterName){
     document.getElementById("image").innerHTML=`<img src="${chapter.img}"/>`;
     document.querySelector(".bouton");
     
-    if(chapter.video=true){
-    
+    if(chapter.video!= undefined){
+    `<video src=${'chapter.img'} poster=${'chapter.video'}/video>`
+    }else{
+    `<img src=${'chapter.img'}/img>`
     }
 
     const optionsArr = chaptersObj[chapterName].options.length;

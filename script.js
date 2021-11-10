@@ -496,15 +496,15 @@ const chaptersObj = {
 
 function goToChapter(chapterName){
     const chapter=chaptersObj[chapterName];
-    let changeBalise = '';
+    let changeBalise='';
     document.querySelector('.chapitre').innerText=chapter.subtitle;
     document.querySelector('.message').innerText=chapter.text;
     document.querySelector(".bouton");
     
     if(chapter.video!= undefined){
-        changeBalise =`<video src=${'chapter.img'} poster=${'chapter.video'}/video>`
+        changeBalise =`<video src=${chapter.video} autoplay loop muted </video>`
     }else{
-        changeBalise =`<img src=${'chapter.img'}/img>`
+        changeBalise =`<img src=${chapter.img}></img>`
     }
     
     document.getElementById("image").innerHTML=changeBalise;
@@ -522,6 +522,6 @@ for (let index = 0;
         document.querySelector(".bouton").innerHTML=textChoix += `<div class="bouton"><input class="choix" type="button" value='${chaptersObj[chapterName].options[index].text} 'onclick="${chaptersObj[chapterName].options[index].action}"/></div>`;
       };
 
-     
+      
     };
 goToChapter('chapitre1');

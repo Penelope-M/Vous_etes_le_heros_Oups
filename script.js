@@ -497,6 +497,12 @@ const chaptersObj = {
 function goToChapter(chapterName){
     const chapter=chaptersObj[chapterName];
     let changeBalise='';
+    
+    const audio = new Audio('assets/sons/mixkit-unlock-game-notification-253.wav');
+    let btn = document.querySelector(".bouton");
+    btn.addEventListener('click',function(){
+        audio.play();
+    });
     document.querySelector('.chapitre').innerText=chapter.subtitle;
     document.querySelector('.message').innerText=chapter.text;
     document.querySelector(".bouton");

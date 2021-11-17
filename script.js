@@ -530,8 +530,10 @@ for (let index = 0;
       };
 
       localStorage.setItem('chapterUser', chapterName); 
+     
       let chapterUser= localStorage.getItem( 'chapterUser');
     };
+
 document.addEventListener('DOMContentLoaded', function(){
     if(localStorage.getItem('chapterUser')!= null){
     goToChapter(`${localStorage.getItem( 'chapterUser')}`)

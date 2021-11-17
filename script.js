@@ -529,34 +529,12 @@ for (let index = 0;
         document.querySelector(".bouton").innerHTML=textChoix += `<div class="bouton"><input class="choix" type="button" value='${chaptersObj[chapterName].options[index].text} 'onclick="${chaptersObj[chapterName].options[index].action}"/></div>`;
       };
 
-      localStorage.setItem(chaptersObj, JSON.stringify(chaptersObj)); 
-      
+      localStorage.setItem('chapterUser', chapterName); 
+      let chapterUser= localStorage.getItem( 'chapterUser');
     };
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
 document.addEventListener('DOMContentLoaded', function(){
     if(localStorage.getItem('chapterUser')!= null){
     goToChapter(`${localStorage.getItem( 'chapterUser')}`)
     }else{goToChapter('chapitre1');}
 
 })
-
-=======
-goToChapter('chapitre1');
-localStorage.getItem( chaptersObj);
->>>>>>> parent of ee8ecb5 (set et et get item page)
-=======
-goToChapter('chapitre1');
-localStorage.getItem( chaptersObj);
->>>>>>> parent of ee8ecb5 (set et et get item page)
-=======
-goToChapter('chapitre1');
-localStorage.getItem( chaptersObj);
->>>>>>> parent of ee8ecb5 (set et et get item page)
-=======
-goToChapter('chapitre1');
-localStorage.getItem( chaptersObj);
->>>>>>> parent of ee8ecb5 (set et et get item page)

@@ -535,6 +535,7 @@ for (let index = 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 document.addEventListener('DOMContentLoaded', function(){
     if(localStorage.getItem('chapterUser')!= null){
@@ -543,6 +544,10 @@ document.addEventListener('DOMContentLoaded', function(){
 
 })
 
+=======
+goToChapter('chapitre1');
+localStorage.getItem( chaptersObj);
+>>>>>>> parent of ee8ecb5 (set et et get item page)
 =======
 goToChapter('chapitre1');
 localStorage.getItem( chaptersObj);

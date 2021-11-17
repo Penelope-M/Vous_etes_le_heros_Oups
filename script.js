@@ -529,6 +529,7 @@ for (let index = 0;
         document.querySelector(".bouton").innerHTML=textChoix += `<div class="bouton"><input class="choix" type="button" value='${chaptersObj[chapterName].options[index].text} 'onclick="${chaptersObj[chapterName].options[index].action}"/></div>`;
       };
 
+<<<<<<< HEAD
       localStorage.setItem('chapterUser', chapterName); 
      
       let chapterUser= localStorage.getItem( 'chapterUser');
@@ -541,3 +542,10 @@ document.addEventListener('DOMContentLoaded', function(){
 
 })
 
+=======
+      localStorage.setItem(chaptersObj, JSON.stringify(chaptersObj)); 
+      
+    };
+goToChapter('chapitre1');
+localStorage.getItem( chaptersObj);
+>>>>>>> parent of ee8ecb5 (set et et get item page)

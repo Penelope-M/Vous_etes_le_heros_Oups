@@ -543,10 +543,10 @@ document.addEventListener('DOMContentLoaded', function(){
     }else{goToChapter('chapitre1');}
 
     if(localStorage.getItem('keyspecial')!= undefined){
-        keyspecial=(localStorage.getItem('keyspecial'))
-        }else{goodChoice = false}
+        keyFounded=(localStorage.getItem('keyspecial'))
+        }else{keyFounded = false}
 
         if(localStorage.getItem('choixspecial')!= undefined){
-            choixspecial=(localStorage.getItem('choixspecial'))
+            goodChoice=(localStorage.getItem('choixspecial'))
             }else{goodChoice = false}
 })

@@ -27,10 +27,10 @@ function gererStatKey(){
 }
 function gererChoix(){
     if(goodChoice == false){
-        goToChapter("chapitre34")
+        goToChapter("chapitre35")
     }
     if(goodChoice == true){
-        goToChapter("chapitre35")
+        goToChapter("chapitre34")
     }
 }
 const chaptersObj = {
@@ -292,7 +292,7 @@ const chaptersObj = {
             },
             {
             text: "Antigone",
-            action: "goToChapter('chapitre22')"
+            action: "statgood()"
             },
             {
             text: "Toi",
@@ -550,3 +550,4 @@ document.addEventListener('DOMContentLoaded', function(){
             goodChoice=(localStorage.getItem('choixspecial'))
             }else{goodChoice = false}
 })
+

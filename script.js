@@ -2,11 +2,14 @@ let goodChoice = false;
 function statgood() {
     goodChoice=true;
     goToChapter('chapitre22')
+    localStorage.getItem( 'choixspecial',goodChoice);
 }
 let keyFounded = false;
 function statKey() {
     keyFounded = true;
-    goToChapter("chapitre4")
+    goToChapter("chapitre4");
+    localStorage.getItem( 'keyspecial', keyFounded);
+    console.log(localStorage.getItem())
 }
 function reset(){
 keyFounded = false;
@@ -531,10 +534,19 @@ for (let index = 0;
 
       localStorage.setItem('chapterUser', chapterName); 
       let chapterUser= localStorage.getItem( 'chapterUser');
+      let keyspecial= localStorage.getItem( 'keyspecial');
+      let choixspecial= localStorage.getItem( 'choixspecial');
     };
 document.addEventListener('DOMContentLoaded', function(){
     if(localStorage.getItem('chapterUser')!= null){
-    goToChapter(`${localStorage.getItem( 'chapterUser')}`)
+    goToChapter(`${localStorage.getItem('chapterUser')}`)
     }else{goToChapter('chapitre1');}
 
+    if(localStorage.getItem('keyspecial')!= null){
+        keyspecial=(localStorage.getItem('keyspecial'))
+        }else{goToChapter('chapitre4');}
+
+        if(localStorage.getItem('choixspecial')!= null){
+            choixspecial=(localStorage.getItem('choixspecial'))
+            }else{goToChapter('chapitre22');}
 })

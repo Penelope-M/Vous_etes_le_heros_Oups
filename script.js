@@ -497,23 +497,21 @@ const chaptersObj = {
 },
 }
 const audio = new Audio('assets/sons/mixkit-unlock-game-notification-253.wav');
+
 function goToChapter(chapterName){
     const chapter=chaptersObj[chapterName];
     let changeBalise='';
   
-    
- 
-    let btn = document.querySelector(".bouton");
-    btn.addEventListener('click',function(){
-        audio.play();
-    });
+    audio.currentTime = 0; // Son au début
+    audio.play(); // Jouer le son
+
     document.querySelector('.chapitre').innerText=chapter.subtitle;
     document.querySelector('.message').innerText=chapter.text;
     document.querySelector(".bouton");
     
     if(chapter.video!= undefined){
-        changeBalise =`<video src=${chapter.video} autoplay loop muted </video>`
-    }else{
+        changeBalise =`<video src=${chapter.video} autoplay loop muted></video>`
+    } else {
         changeBalise =`<img src=${chapter.img}></img>`
     }
     
@@ -524,30 +522,30 @@ function goToChapter(chapterName){
     let textChoix=" ";
   
 
-for (let index = 0; 
-    index < optionsArr; 
-    index++
-    ) {
-        const choix = chaptersObj[chapterName].options[index].action;
+    for (let index = 0; index < optionsArr; index++) {
         document.querySelector(".bouton").innerHTML=textChoix += `<div class="bouton"><input class="choix" type="button" value='${chaptersObj[chapterName].options[index].text} 'onclick="${chaptersObj[chapterName].options[index].action}"/></div>`;
-      };
-
-      localStorage.setItem('chapterUser', chapterName); 
-      let chapterUser= localStorage.getItem( 'chapterUser');
-      let keyspecial= localStorage.getItem( 'keyspecial');
-      let choixspecial= localStorage.getItem( 'choixspecial');
     };
-document.addEventListener('DOMContentLoaded', function(){
-    if(localStorage.getItem('chapterUser')!= null){
-    goToChapter(`${localStorage.getItem('chapterUser')}`)
-    }else{goToChapter('chapitre1');}
 
-    if(localStorage.getItem('keyspecial')!= undefined){
-        keyFounded=(localStorage.getItem('keyspecial'))
-        }else{keyFounded = false}
+    localStorage.setItem('chapterUser', chapterName); 
+};
 
-        if(localStorage.getItem('choixspecial')!= undefined){
-            goodChoice=(localStorage.getItem('choixspecial'))
-            }else{goodChoice = false}
+document.addEventListener('DOMContentLoaded', function() {
+    if (localStorage.getItem('chapterUser') != null) {
+        goToChapter(`${localStorage.getItem('chapterUser')}`)
+    } else {
+        goToChapter('chapitre1');
+    }
+
+    if (localStorage.getItem('keyspecial')!= undefined){
+        keyFounded = localStorage.getItem('keyspecial');
+    } else { 
+        keyFounded = false;
+    }
+
+    if (localStorage.getItem('choixspecial') != undefined){
+        goodChoice = localStorage.getItem('choixspecial');
+    } else {
+        goodChoice = false;
+    }
 })
 

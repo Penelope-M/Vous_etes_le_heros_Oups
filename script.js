@@ -496,6 +496,7 @@ const chaptersObj = {
 
 },
 }
+let checkbox =document.querySelector('.input');
 const audio = new Audio('assets/sons/mixkit-unlock-game-notification-253.wav');
 
 function goToChapter(chapterName){
@@ -503,8 +504,13 @@ function goToChapter(chapterName){
     let changeBalise='';
   
     audio.currentTime = 0; // Son au début
-    audio.play(); // Jouer le son
-
+    if(checkbox.checked){
+        audio.play(); // Jouer le son
+    }
+    else{
+        audio.pause()
+    };
+    
     document.querySelector('.chapitre').innerText=chapter.subtitle;
     document.querySelector('.message').innerText=chapter.text;
     document.querySelector(".bouton");
@@ -548,7 +554,12 @@ document.addEventListener('DOMContentLoaded', function() {
         goodChoice = false;
     }
 })
+let effacer= document.querySelector('.resets');
+
 function resets(){
     localStorage.clear();
     goToChapter('chapitre1')
 };
+effacer.addEventListener('click', function(){
+resets();
+});

@@ -64,3 +64,10 @@ Body {
   color: #FFE8D1;
   text-align:center;
 }
+.resets{
+  border-radius: 15px;
+  background-color: #826251;
+  padding: 10px;
+  color: #FFE8D1;
+  text-align:center;
+}

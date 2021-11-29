@@ -548,6 +548,7 @@ document.addEventListener('DOMContentLoaded', function() {
         goodChoice = false;
     }
 })
-function reset(){
-
+function resets(){
+    localStorage.clear();
+    goToChapter('chapitre1')
 };

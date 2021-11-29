@@ -548,4 +548,6 @@ document.addEventListener('DOMContentLoaded', function() {
         goodChoice = false;
     }
 })
+function reset(){
 
+};

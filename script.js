@@ -503,8 +503,8 @@ const audio = new Audio('assets/sons/mixkit-unlock-game-notification-253.wav');
 
 function goToChapter(chapterName){
     const body = document.querySelector('body');
-    body.classList.toggle(localStorage.getItem('chapterName', true));
-    body.classList.toggle(localStorage.getItem('chapterName', false));
+    body.className=chapterName;
+  
     console.clear();
     console.log(body);
     const chapter=chaptersObj[chapterName];

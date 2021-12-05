@@ -563,3 +563,5 @@ function resets(){
 effacer.addEventListener('click', function(){
 resets();
 });
+let body = document.querySelector('body');
+body.classList.add(localStorage.getItem('chapterUser',chaptersObj));

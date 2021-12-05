@@ -497,12 +497,13 @@ const chaptersObj = {
 },
 }
 let checkbox =document.querySelector('.input');
+
 const audio = new Audio('assets/sons/mixkit-unlock-game-notification-253.wav');
 
-const body = document.querySelector('body');
-body.classList.add(localStorage.getItem('chapterUser', chaptersObj));
-function goToChapter(chapterName){
 
+function goToChapter(chapterName){
+    const body = document.querySelector('body');
+    body.classList.add(localStorage.getItem('chapterUser', chaptersObj));
     console.clear();
     console.log(body);
     const chapter=chaptersObj[chapterName];
@@ -542,6 +543,7 @@ function goToChapter(chapterName){
 };
 
 document.addEventListener('DOMContentLoaded', function() {
+    
     if (localStorage.getItem('chapterUser') != null) {
         goToChapter(`${localStorage.getItem('chapterUser')}`)
     } else {

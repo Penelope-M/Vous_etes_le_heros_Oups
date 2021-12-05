@@ -507,6 +507,7 @@ function goToChapter(chapterName){
     console.log(body);
     const chapter=chaptersObj[chapterName];
     let changeBalise='';
+    console.log(chapter)
   
     audio.currentTime = 0; // Son au début
     if(checkbox.checked){

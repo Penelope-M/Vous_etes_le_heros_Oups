@@ -499,7 +499,12 @@ const chaptersObj = {
 let checkbox =document.querySelector('.input');
 const audio = new Audio('assets/sons/mixkit-unlock-game-notification-253.wav');
 
+const body = document.querySelector('body');
+body.classList.add(localStorage.getItem('chapterUser', chaptersObj));
 function goToChapter(chapterName){
+
+    console.clear();
+    console.log(body);
     const chapter=chaptersObj[chapterName];
     let changeBalise='';
   
@@ -563,5 +568,4 @@ function resets(){
 effacer.addEventListener('click', function(){
 resets();
 });
-let body = document.querySelector('body');
-body.classList.add(localStorage.getItem('chapterUser',chaptersObj));
+

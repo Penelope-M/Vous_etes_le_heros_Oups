@@ -97,3 +97,7 @@ background-image: url('assets/img/main.png'),linear-gradient(#0e0e0e, #db4d43);
     background-color: rgba(151, 40, 40, 0.95) ;
     box-shadow: 0 0 10px 10px rgb(73, 33, 33)
   }
+  .chapitre19 h1{
+    -webkit-text-stroke:1px rgb(255, 255, 255);
+    color:black;
+  }

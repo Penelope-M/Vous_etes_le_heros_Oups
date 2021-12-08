@@ -71,3 +71,29 @@ Body {
   color: #FFE8D1;
   text-align:center;
 }
+.chapitre34{
+background-image:linear-gradient(#e787e7, #dba643); 
+
+}
+
+.chapitre34 .game {
+  background-color: rgba(39, 149, 168, 0.4) ;
+}
+.chapitre26{
+background-image: url('assets/img/main.png'),linear-gradient(#0e0e0e, #db4d43);
+
+}
+.chapitre26 .game {
+  background-color: rgba(179, 43, 43, 0.95);
+  box-shadow: 10px 10px 10px rgb(92, 8, 8);
+}
+
+.chapitre19{
+  background-image:url('assets/img/colere.png'),radial-gradient(#ddadad, #3d0606); 
+  
+  }
+  
+  .chapitre19 .game {
+    background-color: rgba(151, 40, 40, 0.95) ;
+    box-shadow: 0 0 10px 10px rgb(73, 33, 33)
+  }

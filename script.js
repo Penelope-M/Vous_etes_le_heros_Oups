@@ -36,7 +36,7 @@ function gererChoix(){
 const chaptersObj = {
     chapitre1: {
         subtitle: "Lendemain de veille",
-        text: "Vous vous réveillez, vous semblez perdu, car vous n'êtes clairement pas chez vous. Vous cherchez votre cellulaire.Vous vous souvenez de rien.",
+        text: "Vous vous réveillez, vous semblez perdu, car vous n'êtes clairement pas chez vous. Vous cherchez votre cellulaire. Vous vous souvenez de rien.",
         img: "assets/img/lumiere.jpg",
         video:"assets/video/lumiere.mp4",
         options:[

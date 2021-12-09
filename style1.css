@@ -67,9 +67,23 @@ body {
   color: #FFE8D1;
   text-align:center;
 }
+.choix:hover{
+  border-radius: 15px;
+  background-color: #573420;
+  padding: 10px;
+  color: #e49a56;
+  text-align:center;
+}
 .resets{
   border-radius: 15px;
   background-color: #826251;
+  padding: 10px;
+  color: #FFE8D1;
+  text-align:center;
+}
+.resets:hover{
+  border-radius: 15px;
+  background-color: #491903;
   padding: 10px;
   color: #FFE8D1;
   text-align:center;

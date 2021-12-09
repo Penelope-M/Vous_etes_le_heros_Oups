@@ -63,7 +63,7 @@ const chaptersObj = {
         },
     chapitre3: {
         subtitle: "Dire la vérité à son ami",
-        text: "Votre ami vous ne croit pas, car vous êtes nul avec les femmes. Il demande une preuve.",
+        text: "Votre ami ne vous croit pas, car vous êtes nul avec les femmes. Il demande une preuve.",
         img: "assets/img/texto.jpg",
         options:[
             {
@@ -78,7 +78,7 @@ const chaptersObj = {
     },
     chapitre4: {
         subtitle: "Prendre une photo",
-        text: "Vous prenez la photo de la femme qui dors à vos côtés et vous lui envoyer.Votre ami vous félicite.",
+        text: "Vous prenez la photo de la femme qui dort à vos côtés et vous lui envoyez. Votre ami vous félicite avec un: « Nice job Bro! »",
         img: "assets/img/photoX.jpg",
         options:[
             {
@@ -145,7 +145,7 @@ const chaptersObj = {
 },
     chapitre9: {
         subtitle: "Fuir",
-        text: "Vous decidez de ne pas prendre contact avec elle. Vous prenez vos jambes à votre cou et vous dégagez. Elle vous bloquera surement, mais ça vous importe peu. Peut-être vous auriez fait un choix différent si ça serait passé autrement",
+        text: "Vous decidez de ne pas prendre contact avec elle. Vous prenez vos jambes à votre cou et vous dégagez. Elle vous bloquera sûrement, mais ça vous importe peu. Peut-être vous auriez fait un choix différent si ça s'etait passé autrement",
         img: "assets/img/dehors.jpg",
         options:[
             {
@@ -156,7 +156,7 @@ const chaptersObj = {
 },
     chapitre10: {
         subtitle: "Fouiller dans ses effets personels",
-        text: "Vous voulez découvrir qui elle est. Pas le temps au enfantillage! Vous prenez son sac à main et vous trouvez son portefeuille. Parfait! Avec une carte identité vous pourriez découvrir son nom. Vous décidez de prendre quel cartes.",
+        text: "Vous voulez découvrir qui elle est. Pas le temps aux enfantillages! Vous prenez son sac à main et vous trouvez son portefeuille. Parfait! Avec une carte d'identité, vous pourriez découvrir son nom. Vous décidez de prendre quelle carte.",
         img: "assets/img/chambre_jour_1.jpg",
         options:[
             {
@@ -193,7 +193,7 @@ const chaptersObj = {
 },
     chapitre13: {
         subtitle: "Regarder sa bibliothèque",
-        text: "Vous découvrez le type de littérature qu'elle apprécie. C'est surtout du théàtre et ces goûts sont divers et variés. Elle semble appréciée la romance, mais elle semble avoir un coup de coeur sur le thème des tragédies grecques.",
+        text: "Vous découvrez le type de littérature qu'elle apprécie. C'est surtout du théàtre et ses goûts sont divers et variés. Elle semble appréciée la romance, mais a un coup de coeur sur les tragédies grecques.",
         img: "assets/img/chambre_jour_1.jpg",
         options:[
             {
@@ -204,7 +204,7 @@ const chaptersObj = {
 },
     chapitre14: {
         subtitle: "Retour dans la chambre",
-        text: "Elle revient dans la chambre. Elle vous dit qu'elle est soulagée que vous n'êtes pas partie comme un lapin. Elle vous explique que vous vous êtes donnés un rendez-vous sur dans un Bar à partir de l'application Tinder. Vous aviez tous les deux préférer d'apprendre à faire connaissance en personne au lieu derrière un écran. Vous aviez pris beaucoup d'alcool et vous êtes rentrer chez elle. Vous vous doutiez ce qui s'est passé par la suite. Elle vous rassure que vous vous êtes protégés. Ne sachant pas rajouter d'avantage, elle vous regarde pour que vous rompiez ce silence. Qu'allez vous dire? ",
+        text: "Elle revient dans la chambre et vous dit qu'elle est soulagée que vous n'êtes pas partie comme un lapin. Elle vous explique que vous vous êtes donnés un rendez-vous dans un Bar à partir de l'application Tinder. Vous aviez tous les deux préféré d'apprendre à faire connaissance en personne au lieu de derrière un écran. Vous aviez pris beaucoup d'alcool et vous êtes rentré chez elle. Vous vous doutiez de ce qui s'était passé par la suite. Elle vous rassure que vous vous êtes protégés. Ne sachant pas quoi rajouter, elle vous regarde pour que vous rompiez le silence. Qu'allez-vous dire? ",
         img: "assets/img/fatigue.jpg",
         options:[
             {
@@ -219,7 +219,7 @@ const chaptersObj = {
 },
     chapitre15: {
         subtitle: "Parler d'elle",
-        text: "Elle cache sa gêne et décide de détendre l'atmosphère. Vous parlez de tout et de rien. Jusqu'au moment où elle vous regard d'un air maligne. Elle vous demande si vous vous rappelez de son nom.",
+        text: "Elle cache sa gêne et décide de détendre l'atmosphère. Vous parlez de tout et de rien. Jusqu'au moment où elle vous regarde d'un air malin. Elle vous demande si vous vous rappelez de son nom.",
         img: "assets/img/happy_1.png",
         options:[
             {
@@ -238,7 +238,7 @@ const chaptersObj = {
 },
     chapitre16: {
         subtitle: "Elena",
-        text: "Elle découvre que vous aviez fouiller dans ses affaires, car elle dit qu'elle vous a jamais donnez son vrai nom. Elle est furieuse. Tellement qu'elle vous jette dehors habilier ou non.",
+        text: "Elle découvre que vous aviez fouillé dans ses affaires, car elle dit qu'elle ne vous a jamais donnez son vrai nom. Elle est furieuse. Tellement qu'elle vous jette dehors habilié ou non.",
         img: "assets/img/angry_1.jpg",
         options:[
             {
@@ -249,7 +249,7 @@ const chaptersObj = {
 },
     chapitre17: {
         subtitle: "Kareen",
-        text: "Elle découvre que vous n'aviez même pas pris la peine d'apprendre son prénom. Elle semble être dégouter. Vous avez mal à la tête, elle part vous chercher des médicaments à contre-coeur.",
+        text: "Elle découvre que vous n'aviez même pas pris la peine d'apprendre son prénom. Elle semble être dégouté. Vous avez mal à la tête, elle part vous chercher des médicaments à contre-coeur.",
         img: "assets/img/timide.png",
         options:[
             {
@@ -260,7 +260,7 @@ const chaptersObj = {
 },
     chapitre18: {
         subtitle: "Emillie",
-        text: "Elle découvre que vous aviez pris la peine d'apprendre son prénom. Elle semble être s'en réjouir. Vous avez mal à la tête, elle part vous chercher des médicaments avec bienveillance",
+        text: "Elle découvre que vous aviez pris la peine d'apprendre son prénom. Elle semble s'en réjouir. Vous avez mal à la tête, elle part vous chercher des médicaments avec bienveillance",
         img: "assets/img/happy_3.png",
         options:[
             {
@@ -271,7 +271,7 @@ const chaptersObj = {
 },
     chapitre19: {
         subtitle: "Elle vous mets dehors",
-        text: "Habillé ou pas, elle vous donne un bon coup de pieds dans les jambes. Vous êtes un connard à ses yeux et vous souhaite la pire des journées. Vous êtes humillié, car tout son voisinage vous remarque. Peut-être les choses se seraient mieux passer si vous auriez agit autrement?",
+        text: "Habillé ou pas, elle vous donne un bon coup de pieds dans les foufounes. Vous êtes un connard à ses yeux et elle vous souhaite la pire des journées. Vous êtes humillié, car tout son voisinage vous remarque. Peut-être que les choses se seraient mieux passé si vous aviez agit autrement?",
         img: "assets/img/dehors.jpg",
         video:"assets/video/fuck.mp4",
         options:[
@@ -303,7 +303,7 @@ const chaptersObj = {
 },
     chapitre21: {
         subtitle: "Roméo et juliette",
-        text: "Vous jouez la carte du romantique et de la sécurité. C'est une fille donc elle devrait aimé. Vous lui fait un clin d'oeil en lui disant que l'amour interdit est si beau. Elle vous regarde étrangement mais satisfait que vous connaissiez vos classiques. Vous auriez peut-être dû vous informer sur ses goûts si vous espérez la draguer.Vous commenciez à avoir mal à la tête, et elle le remarque. Elle part vous cherchez des médiacaments.",
+        text: "Vous jouez la carte du romantique et de la sécurité. C'est une fille, donc elle devrait aimer. Vous lui faites un clin d'oeil en lui disant que l'amour interdit est si beau. Elle vous regarde étrangement, mais satisfaite que vous connaissiez vos classiques. Vous auriez peut-être dû vous informer sur ses goûts si vous espériez la draguer.Vous commenciez à avoir mal à la tête et elle le remarque. Elle part vous chercher des médiacaments.",
         img: "assets/img/tannante.jpg",
         options:[
             {
@@ -314,7 +314,7 @@ const chaptersObj = {
 },
     chapitre22: {
         subtitle: "Antigone",
-        text: "Vous êtes certain que c'est une femme avec de la profondeur, sinon le fait d'avoir regarder dans sa bibliothèque en ait pour quelques choses. Elle semble satisfait de votre réponse. Elle vous en parle avec passion. Vous commenciez à avoir mal à la tête, et elle le remarque. Elle part vous cherchez des médiacaments.",
+        text: "Vous êtes certain que c'est une femme avec de la profondeur, sinon le fait d'avoir regardé dans sa bibliothèque en ait pour quelques choses. Elle semble satisfaite de votre réponse. Elle vous en parle avec passion. Vous commenciez à avoir mal à la tête et elle le remarque. Elle part vous chercher des médiacaments.",
         img: "assets/img/happy_4.png",
         options:[
             {
@@ -325,7 +325,7 @@ const chaptersObj = {
 },
     chapitre23: {
         subtitle: "Toi",
-        text: "Vous lui dites d'un ton charmeur et théâtral elle, car elle est magnifique illusion. Elle vous dévisage. Vous espérez qu'elle soient conquise par vos douces paroles, mais il semblerait que ses l'inverse qui s'est produit. Vous sembliez avoir mal à la tête. Elle se propose d'aller vous chercher des médicaments, surement pour fuir ce silence. ",
+        text: "Vous lui dites d'un ton charmeur et théâtral, car elle est une magnifique illusion. Elle vous dévisage. Vous espérez qu'elle soit conquise par vos douces paroles, mais il semblerait que c'est l'inverse qui s'est produit. Vous sembliez avoir mal à la tête. Elle propose d'aller vous chercher des médicaments, sûrement pour fuir ce silence. ",
         img: "assets/img/timide.png",
         options:[
             {
@@ -336,7 +336,7 @@ const chaptersObj = {
 },
     chapitre24: {
         subtitle: "Photo compromettante",
-        text: "Elle revient en furie en demandant des explications. Elle semble vouloir vous devissez la tête. Elle vous hurle et vous insulte. Il semblerait que votre ami à envoyer sur internet la photo que vous aviez pris d'elle nue ce matin. Il semblerait que son frère est sur la photo et la tout de suite prévenu. Vous êtes dans de beau draps. Vous sembliez avoir ruiner sa réputation, tout son entourage a vu la photo. Pas besoin de tenter la discussion, elle est déjà entrain de lancer vos affaires dehors et s'approche de vous. ",
+        text: "Elle revient en furie en demandant des explications. Elle semble vouloir vous devisser la tête. Elle vous hurle et vous insulte. Il semblerait que votre ami a envoyé sur internet la photo que vous aviez pris d'elle nue ce matin. Il semblerait que son cousin l'ait tout de suite prévenu. Vous êtes dans de beaux draps. Vous sembliez avoir ruiné sa réputation, tout son entourage a vu la photo. Pas besoin de tenter la discussion, elle est déjà entrain de lancer vos affaires dehors et elle s'approche de vous. ",
         img: "assets/img/gene.jpg",
         options:[
             {
@@ -348,7 +348,7 @@ const chaptersObj = {
 },
     chapitre25: {
         subtitle: "Seule une dernière fois",
-        text: "Vous vous habillez, car vous êtes pas nudiste et vous vous demander quoi faire pendant qu'elle part chercher les médicaments.",
+        text: "Vous vous habillez, car vous n'êtes pas nudiste et vous vous demandez quoi faire pendant qu'elle part chercher les médicaments.",
         img: "assets/img/chambre_jour_1.jpg",
         options:[
             {
@@ -367,7 +367,7 @@ const chaptersObj = {
 },
     chapitre26: {
         subtitle: "Prendre sa petite culotte",
-        text: "Vous preniez sa petite culotte. Elle est d'un magnifique violet avec de la dentelle. Votre coeur se met à battre à la chamale. Elle a l'air si fraiche et confortable. Le temps est compter... Que voulez-vous faire?",
+        text: "Vous preniez sa petite culotte. Elle est d'un magnifique violet avec de la dentelle. Votre coeur se met à battre la chamade. Elle a l'air si fraiche et confortable. Le temps est compté... Que voulez-vous faire?",
         img: "assets/img/pervert_4.jpg",
         options:[
             {
@@ -382,7 +382,7 @@ const chaptersObj = {
 },
     chapitre27: {
         subtitle: "Mettre la petite culotte",
-        text: "Vous enfilez sa petite culotte. Vous vous regardez dans le mirroir. Cela mets votre 'saucissons' en valeur. Qui eu cru que c'était aussi confortable? Vous pensez emprunter potentiellement ceux de votre soeur. Vous entendiez un cri et vous vous retournez. ",
+        text: "Vous enfilez sa petite culotte. Vous vous regardez dans le mirroir. Cela mets votre 'saucisson' en valeur. Qui eu cru que c'était aussi confortable? Vous pensez emprunter potentiellement ceux de votre soeur. Vous entendiez un cri et vous vous retournez. ",
         img: "assets/img/pervert_5.jpg",
         options:[
             {
@@ -393,7 +393,7 @@ const chaptersObj = {
 },
     chapitre28: {
         subtitle: "Sentir sa petite culotte",
-        text: "Vous sentiez le doux parfum qui se dégage de la culotte. Impossible d'y resister, vous mettez l'objet de vos désirs sur votre visage avec fougue afin de vous en empreigner l'odeur qui s'en émagne. Vous entendiez un cri et vous vous retournez.",
+        text: "Vous sentiez le doux parfum qui se dégage de la culotte. Impossible d'y resister, vous mettez l'objet de vos désirs sur votre visage avec fougue afin de vous en empreigner l'odeur qui s'en émane. Vous entendiez un cri et vous vous retournez.",
         img: "assets/img/pervert_3.jpg",
         options:[
             {
@@ -404,7 +404,7 @@ const chaptersObj = {
 },
     chapitre29: {
         subtitle: "Avoir la culotte",
-        text: "Elle vous demande des explications. Vous lui avouez que vous comprenez pas sa colère. Vous la rassurez pour que se soit équitable, elle peut essayer le votre. Elle vous demande sèchement de partir. Vous lui demandiez si elle veut avoir sa culotte et grogne que vous pouvez le garder. Vous gagnez sa culotte en souvenir, GÉNIAL! ",
+        text: "Elle vous demande des explications. Vous lui avouez que vous ne comprenez pas sa colère. Vous la rassurez pour que se soit équitable, elle peut essayer le votre. Elle vous demande sèchement de partir. Vous lui demandiez si elle veut ravoir sa culotte et elle grogne que vous pouvez la garder. Vous gagnez sa culotte en souvenir, GÉNIAL! ",
         img: "assets/img/cool.jpg",
         options:[
             {
@@ -415,7 +415,7 @@ const chaptersObj = {
 },
     chapitre30: {
         subtitle: "Perdre la culotte",
-        text: "Elle vous reprend la culotte des mains et vous traitre comme si vous étiez un malade mentale. Vous voulez pas cette folle , vous êtes juste déçu de ne pas partir avec votre trophée.",
+        text: "Elle vous reprend la culotte des mains et vous traite comme si vous étiez un malade mentale. Vous ne voulez pas de cette folle. Vous êtes juste déçu de ne pas repartir avec votre trophée.",
         img: "assets/img/colere.png",
         options:[
             {
@@ -426,7 +426,7 @@ const chaptersObj = {
 },
     chapitre31: {
         subtitle: "Attendre",
-        text: "Vous attendiez qu'elle revienne et vous vérifiez que vous aviez rien oublié. Elle revient dans la chambre et il est temps que vous partiez. Quelle retaion voulez vous avec elle?",
+        text: "Vous attendiez qu'elle revienne et vous vérifiez que vous n'aviez rien oublié. Elle revient dans la chambre et il est temps de partir. Quelle relation voulez-vous avec elle?",
         img: "assets/img/partir_3.jpg",
         options:[
             {
@@ -463,7 +463,7 @@ const chaptersObj = {
 },
     chapitre34: {
         subtitle: "Rester en contact",
-        text: "Vous aviez fait les bons choix. Vous voulez vous revoir. Peut-être vous seriez plus qu'ami à l'avenir. N'oubliez pas de moins boire à l'avenir. Votre nouvelle ami vous le fait clairement rapeller en rigolant. Elle vous raccompagne jusqu'à la porte. Fin heureuse.",
+        text: "Vous aviez fait les bons choix. Vous voulez vous revoir. Peut-être seriez-vous plus qu'ami à l'avenir. N'oubliez pas de moins boire les prochaines fois. Votre nouvelle amie vous le rappel en rigolant. Elle vous raccompagne jusqu'à la porte. Fin heureuse.",
         img: "assets/img/timide_gene.jpg",
         options:[
             {
@@ -474,7 +474,7 @@ const chaptersObj = {
 },
     chapitre35: {
         subtitle: "Coeur brisé",
-        text: "Vous aviez pas fait les bons choix pour rester en contact. Vous vous êtes fait brisé le coeur",
+        text: "Vous n'aviez pas fait les bons choix pour rester en contact. Vous vous êtes fait briser le coeur",
         img: "assets/img/timide.png",
         options:[
             {
@@ -485,7 +485,7 @@ const chaptersObj = {
 },
     chapitre36: {
         subtitle: "Chemin séparer",
-        text: "Il vaut mieux ne pas rester en contact. Que ça soit votre choix ou pas, certaines personnes sont là pour être de passage à notre vie. Elle vous raccompagne jusqu'à la porte et une fois que vous sortez, elle referme aussitôt la porte. Peut-être si vous aviez fait d'autres choix, votre destin aurait changé.",
+        text: "Il vaut mieux ne pas rester en contact. Que ça soit votre choix ou pas, certaines personnes sont là pour être de passage dans votre vie. Elle vous raccompagne jusqu'à la porte et une fois que vous sortez, elle referme aussitôt la porte. Peut-être si vous aviez fait d'autres choix, votre destin aurait été différent.",
         img: "assets/img/dehors_2.jpg",
         options:[
             {
